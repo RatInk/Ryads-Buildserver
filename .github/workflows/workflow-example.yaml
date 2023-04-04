@@ -7,5 +7,5 @@ jobs:
       labels: ryads-buildserver
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v3$
+        uses: actions/checkout@v3
       - run: echo Hello, world!
